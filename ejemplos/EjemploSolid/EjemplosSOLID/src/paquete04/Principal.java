@@ -9,7 +9,6 @@ import java.util.ArrayList;
  *
  * @author reroes
  */
-
 public class Principal {
 
     public static void main(String[] args) {
@@ -42,7 +41,7 @@ public class Principal {
         lista.add(mar);
 
         TiposTransporte tipos = new TiposTransporte();
-
+        tipos.establecerTransportes(lista);
         tipos.establecerPromedioTarifas();
 
         System.out.printf("Promedio de Tarifas: %.2f",
@@ -50,28 +49,6 @@ public class Principal {
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*public class Principal {
     public static void main(String[] args) {
@@ -98,4 +75,4 @@ public class Principal {
         
     }
 }
-*/
+ */
